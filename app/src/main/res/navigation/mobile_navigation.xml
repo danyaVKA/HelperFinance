@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <activity
+        android:id="@+id/nav_helper"
+        android:name="com.example.helperfinance.ui.chat_bot_Fragment.Chat_Bot_Fragment"
+        android:label="@string/menu_helper"
+        tools:layout="@layout/fragment_chat_bot" />
+
+    <activity
+        android:id="@+id/nav_course"
+        android:name="com.example.helperfinance.ui.course_learn.Course_learn_Fragment"
+        android:label="@string/menu_course"
+        tools:layout="@layout/fragment_course_learn" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.helperfinance.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.helperfinance.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.helperfinance.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.helperfinance.ui.setting.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.helperfinance.ui.reference.ReferenceFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>

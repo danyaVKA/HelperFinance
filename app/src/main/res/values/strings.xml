@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Финансовый помощник</string>
+
+    <string name="navigation_drawer_open">Открыть навигационную панель</string>
+
+    <string name="navigation_drawer_close">Закрыть навигационную панель</string>
+    <string name="title_activity_home1">HomeActivity1</string>
+    <string name="nav_header_title">Ваш финансовый помощник</string>
+    <string name="nav_header_subtitle">Панель инструментов</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Финансы</string>
+    <string name="menu_gallery">Реальные расходы</string>
+    <string name="menu_slideshow">Планируемые расходы</string>
+    <string name="menu_course">Курс обучения</string>
+    <string name="menu_helper">Ваш помощник</string>
+
+    <string name="setting">Настройки</string>
+    <string name="help">Справка</string>
+
+</resources>

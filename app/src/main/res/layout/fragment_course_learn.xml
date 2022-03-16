@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ui.course_learn.Course_learn_Fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/side_nav_bar">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_two"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_cell"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_three"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_cell2"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_four"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_cell3"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_cell4"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Question"
+        android:textSize="25sp"
+        android:paddingTop="20sp"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/btn_one"
+        android:layout_alignParentTop="true"/>
+
+
+</RelativeLayout>

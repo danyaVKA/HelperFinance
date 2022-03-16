@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936011498629",
+    "project_id": "helper-finance",
+    "storage_bucket": "helper-finance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936011498629:android:011fcaaf28f82010f895ec",
+        "android_client_info": {
+          "package_name": "com.example.helperfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936011498629-sfo9nvnggelb9vohljt9v98hjsjftpq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNEiahDbfj3Mg3ZYRdNATQUYrVHs9Pqdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936011498629-sfo9nvnggelb9vohljt9v98hjsjftpq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

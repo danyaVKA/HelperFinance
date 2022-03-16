@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/Helper"
+            android:title="Ваш помощник"
+            android:icon="@drawable/helper"/>
+
+        <item android:id="@+id/dashboard"
+            android:title="Приборная панель"
+            android:icon="@drawable/dashboard"/>
+
+        <item android:id="@+id/income"
+            android:title="Доход"
+            android:icon="@drawable/income"/>
+
+        <item android:id="@+id/expense"
+            android:title="Расход"
+            android:icon="@drawable/expense"/>
+
+    </group>
+
+</menu>
